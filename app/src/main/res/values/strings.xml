@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MovieDb</string>
+    <string name="synopsis"><u><b>Synopsis</b></u></string>
+</resources>
