@@ -91,7 +91,9 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("MainActivity","onresume");
 
-        simpleCursorAdapter.notifyDataSetChanged();
+//        simpleCursorAdapter.notifyDataSetChanged();
+
+        simpleCursorAdapter.swapCursor(databaseManager.getAllMovies());
 
     }
 
